@@ -15,6 +15,7 @@ public class BlkQueueImpl<T> implements BlkQueue<T> {
     public BlkQueueImpl(int maxSize) {
         this.maxSize = maxSize;
         this.queue = new LinkedList<>();
+
     }
 
     @Override
